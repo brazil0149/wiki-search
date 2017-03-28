@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>wiki open search</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <script src="/js/plugins/openWeather.js"></script>--> 
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+<style> 
+input[type=text] {    
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-color .5s;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+</style>
+<body>
+  <div class="container">
+ <div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+  <h1>Wiki Search</h1>
+  <br>
+  <div class="expSearchBox">
+    <div class="expSearchFrom">
+      <input id="field" type="text" value=""/>    
+        <div class="close">
+          <span class="front"></span>
+             <span class="back"></span>
+        </div>   
+    </div>
+ </div>
+  </div>
+ <div class="row">
+   <div class="jumbotron"> 
+     <div class="bs-callout bs-callout-success">
+  <h4 id="results"></h4>
+</div>
+     </div>
+   </div> </div>
+  </div>
+  
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
